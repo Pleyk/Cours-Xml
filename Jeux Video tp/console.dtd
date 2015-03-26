@@ -1,0 +1,7 @@
+<!ELEMENT console (nom, support+, editeur)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT support (#PCDATA)>
+<!ENTITY % editeur SYSTEM "editeur.dtd">
+%editeur;
+
+

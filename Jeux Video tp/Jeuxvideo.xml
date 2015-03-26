@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE baseJeux SYSTEM "baseJeux.dtd">
+
+<baseJeux>
+	<jeuxVideo dateSortie="">
+		<nom></nom>
+		<editeur>
+			<nom></nom>
+		</editeur>
+		<themes>
+			<theme></theme>
+		</themes>
+		<classification></classification>
+		<modes>
+			<mode></mode>
+		</modes>
+		<modelsEco>
+			<modele></modele>
+		</modelsEco>
+		<consoles>
+			<console>
+				<nom></nom>
+				<support></support>
+				<editeur>
+					<nom></nom>
+				</editeur>
+			</console>
+		</consoles>
+		<description></description>
+		<noteRedac></noteRedac>
+		<noteJoueur></noteJoueur>
+		<videos>
+			<video type="test"></video>
+			<video type="GamingLive"></video>
+			<video type="teaser"></video>
+		</videos>
+		<images>
+			<image type="mignature"></image>
+			<image type="wallpaper"></image>
+			<image type="imageTest"></image>
+		</images>
+		<tests>
+			<test date="">
+				<titre></titre>
+				<image></image>
+				<redacteur></redacteur>
+				<console>
+				<nom></nom>
+				<support></support>
+				<editeur>
+					<nom></nom>
+				</editeur>
+				</console>
+				<contenu></contenu>
+				<noteJoueur></noteJoueur>
+				<avisJoueurs>
+					<avisJoueur date="" >
+						<nomJoueur></nomJoueur>
+						<noteJoueur></noteJoueur>
+						<commentaire></commentaire>
+					</avisJoueur>
+				</avisJoueurs>
+			</test>
+		
+		</tests>
+	
+	
+	</jeuxVideo> 
+		
+	
+</baseJeux>

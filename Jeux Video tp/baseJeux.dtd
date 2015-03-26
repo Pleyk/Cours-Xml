@@ -1,0 +1,5 @@
+<!-- DTD created at Wed Mar 25 12:16:17 CET 2015 with EditiX XML Editor (http://www.editix.com). Please insert an encoding attribute header for converting any DTD  -->
+
+<!ELEMENT  baseJeux (jeuVideo*)>
+
+<!ELEMENT  jeuVideo (nom, editeur, themes, classification, modes, modelsEco, consoles, description, noteRedac, noteJoueur, videos, images, tests)>

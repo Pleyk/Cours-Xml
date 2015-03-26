@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE repertoire[
+
+	<!ELEMENT repertoire (contact*)>
+	<!ELEMENT contact (nom, prenom, adresse, emails, telephone)
+>
+	<!ATTLIST contact type (homme|femme) #REQUIRED>
+	<!ELEMENT nom (#PCDATA)>
+	<!ELEMENT prenom (#PCDATA)>
+	<!ELEMENT adresse (num, rue, cp, ville, pays)>
+	<!ELEMENT num (#PCDATA)>
+	<!ELEMENT rue (#PCDATA)>
+	<!ELEMENT cp (#PCDATA)>
+	<!ELEMENT ville (#PCDATA)>
+	<!ELEMENT pays (#PCDATA)>
+	<!ELEMENT telephone (numero*)>
+	<!ELEMENT numero (#PCDATA)>
+	<!ATTLIST numero type (fixe|mobile) #REQUIRED>
+	<!ELEMENT emails (email*a)>
+	<!ELEMENT email (#PCDATA)>
+	<!ATTLIST email type (gmail|yahoo) #REQUIRED>
+]>
+
+ 
+
+<repertoire>
+	<contact type="homme" >
+		<nom>Jacquie</nom>
+		<prenom>Michel</prenom>
+		<adresse>
+			<num>17</num>
+			<rue>de l'alun</rue>
+			<cp>75000</cp>
+			<ville>Maubeuge</ville>
+			<pays>France</pays>
+		</adresse>
+		<emails>
+			<email type="gmail">coucou@coucou.fr</email>
+			<email type="yahoo">coucou@coucou.fr</email>
+		</emails>
+		<telephone>
+			<numero type="fixe">1234567809</numero>
+			<numero type="mobile">1234567809</numero>
+		</telephone>
+	</contact>
+</repertoire>
